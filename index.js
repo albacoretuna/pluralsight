@@ -1,4 +1,5 @@
 const React = require('react');
+const ReactDom = require('react-dom');
 
 const App = React.createClass({
     render() {
@@ -6,4 +7,4 @@ const App = React.createClass({
     }
 });
 
-React.render(<App/>, window.document.getElementById('target'));
+ReactDom.render(<App/>, window.document.getElementById('target'));
