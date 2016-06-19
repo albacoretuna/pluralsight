@@ -3,6 +3,17 @@ const ReactDom = require('react-dom');
 
 const model = new falcor.Model({
    cache: {
+       ingredientsById: {
+           1: {
+           name: "Flour",
+	   description: "white and powdery"
+	   },
+           2: {
+	       name: "chocolate chips",
+	       description: "delicious"
+	  }
+       },
+
        recipes: [
            {
                name: "Cookies",
